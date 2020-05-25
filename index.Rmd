@@ -1,0 +1,44 @@
+---
+title: "La biblioteca Leaflet"
+author: "Manuel Vargas"
+date: "2020-05-25"
+output:
+  html_document:
+    theme: readable    
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+      smooth_scroll: false    
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Recursos de interés
+* [Geocomputation with R - Chapter 8 Making maps with R](https://geocompr.robinlovelace.net/adv-map.html)
+* Tutorial de Leaflet para R: [Leaflet for R](https://rstudio.github.io/leaflet/)
+
+* Sitio web del curso: [GF-0604: Procesamiento de datos geográficos](https://geoprocesamiento-2020i.github.io/).
+* Datos utilizados durante el curso: [Datos del curso GF-0604: Procesamiento de datos geográficos](https://github.com/geoprocesamiento-2020i/datos).
+
+## Preparativos
+Instalación de paquetes:
+```{r eval = FALSE}
+# Leaflet
+install.packages("leaflet")
+```
+
+Carga de paquetes:
+```{r message = FALSE}
+# Leaflet
+library(leaflet)
+```
+
+## Introducción
+...
+
+## Uso básico
